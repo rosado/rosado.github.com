@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0'>
+<channel>
+<generator>
+clj-rss
+</generator>
+<lastBuildDate>
+Tue, 25 Dec 2012 14:26:44 +0000
+</lastBuildDate>
+<title>
+Late Bound
+</title>
+<description>
+Roland Sadowski's blog. Mostly about code.
+</description>
+<link>
+http://rosado.haltingproblem.net/late-bound/
+</link>
+<item>
+<title>
+How this page was made
+</title>
+<description>
+&lt;p&gt;The world clearly does have enough blogging software, but I'm writing my own anyway. It's closer to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyl&lt;/a&gt; than to Wordpress as it's static site generator. It has a web interface, uses a database (embedded one, but I'll eventually make storage a plugin feature), and allows adding  ClojureScript driven pages to the site. The last one will allow to add one off experiments the website easily.&lt;/p&gt;
+
+&lt;p&gt;Apart from doing its job (e.g. generating this site), the project is an experiment in writing a Clojure+ClojureScript application. The Clojure side is straightforward. It's the UI that I think I spent the most time on. I don't do UI or JavaScript programming at my current job, so I had to get familiar with &lt;a href=&quot;https://developers.google.com/closure/&quot;&gt;Google Closure&lt;/a&gt; library and other web stuff.&lt;/p&gt;
+
+&lt;p&gt;Currently the basic features are ready but the last 20% of polish is not there. And I really need to get around to making the web interface look pretty; it's ugly and full of placeholder text. That's why I won't be releasing it in the near future. &lt;/p&gt;
+
+&lt;p&gt;I plan to work on it in bursts, to complete some of the fancy features (e.g. I want a something resembling the Facebook timeline). The next thing I'll be working on is a small UI widget library in ClojureScript, taking into consideration some of the reactive programming libraries and languages. Sometime next year, I think.&lt;/p&gt;
+
+
+
+</description>
+<link>
+http://rosado.haltingproblem.net/late-bound/2012/2012-12-24-1356336476689.html
+</link>
+</item>
+</channel>
+</rss>

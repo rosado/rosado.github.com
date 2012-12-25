@@ -1,0 +1,36 @@
+*, p { font-family: 'Dosis', serif; }
+
+p { word-spacing: 0.1em; margin-bottom: 0em; }
+p + p {
+	text-indent: 2em;
+	margin-top: 0;
+}
+.page-header h1 { text-align: center; color: #777;}
+.page-header h1 small { color: #F02591; }
+.page-header h1 a { text-decoration: none; color: inherit;}
+.page-header h1 a:hover {t ext-decoration: none; }
+.centered { text-align: center; }
+#main-container h1 { margin-top: 1em; margin-bottom: 0.5em; }
+/*#main-container .page-header h1 { margin-top: 0.5em; }*/
+.page-header { margin: 0.5em; border-bottom: none; padding-bottom: 0em; }
+#main-container .content p:first-child { margin-top: 1em;}
+#main-container .content img + p { margin-top: 1em;}
+#main-container .content h4, #main-container .post-body h3 { text-transform: none; }
+#main-container .content h2 { letter-spacing: 0.3em; font-weight: 400; }
+.content h1 { font-weight: 400; color: #666; }
+.content h1 a { text-decoration: none; color: #666; }
+.post-footer { margin-top: 1em; }
+.post-footer p { font-size: 1em; text-align: center; margin-top: 2em; }
+footer { margin-top: 2em;}
+footer p { font-size: 1em; }
+footer .license { 
+  background-image: url("http://rosado-late-bound.s3.amazonaws.com/cc_logo_trans.gif");
+  background-repeat: no-repeat;
+  padding: 1em 0em;
+  background-color: #eee; 
+  background-position: right;
+  text-align: center;
+}
+.nav-links { margin-top: 2em; text-align: center; }
+.nav-links ul { padding: 0em; margin: 0em; }
+.nav-links ul li { list-style: none; }
