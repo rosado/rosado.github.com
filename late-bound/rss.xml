@@ -5,7 +5,7 @@
 clj-rss
 </generator>
 <lastBuildDate>
-Tue, 25 Dec 2012 14:26:44 +0000
+Tue, 22 Jan 2013 22:21:08 +0000
 </lastBuildDate>
 <title>
 Late Bound
@@ -16,6 +16,40 @@ Roland Sadowski's blog. Mostly about code.
 <link>
 http://rosado.haltingproblem.net/late-bound/
 </link>
+<item>
+<title>
+Outlook: 2013
+</title>
+<description>
+&lt;p&gt;I'll try to describe my software development outlook for 2013. I'd like to read it a year from now and do a &amp;quot;diff.&amp;quot; &lt;/p&gt;
+
+&lt;p&gt;Microsoft lost me almost completely. Games are the only reason I still have my Windows 7 desktop machine. I have no interest in developing Win RT or Win 8 phone application (or whatever those things are called, Microsoft came up with another brilliant naming scheme). I'll be doing some C/C++ work but most of it will not involve going deep into Win32 APIs. &lt;/p&gt;
+
+&lt;p&gt;What about .NET? I don't use this platform professionally	anymore, so I mostly don't care. I have a personal project in C# that I really want to finish, and that will probably be all the .NET programming that I'll do this year. Though, if I seriously decide to  do some iOS/Mac OS programming, I may pick up &lt;a href=&quot;http://xamarin.com/&quot;&gt;Xamarin&lt;/a&gt;'s product. Finally, I upgraded Resharper in december (JetBrains had a &amp;quot;End of the World&amp;quot; sale), so I should make some use of it. Still using VS2010, though. I can't justify buying new Visual Studio edition.&lt;/p&gt;
+
+&lt;p&gt;At work I use a mix of Clojure and Java, at home I code mostly with Clojure, so JVM is my main platform at the moment. With the difference that at work I have to use Windows, at home I use either OS X (on my laptop) or Linux (on the desktop, in a VM). For some reason Unix variants are nicer to work with when using Clojure. This is mostly related to all the command line bells and whistles that Windows lack. In theory stuff should run fine everywhere but it turns out even apache commons libs or other core components of the ecosystem fail on Microsoft's OS, because you've dared to put a file on a drive different than &lt;code&gt;C:&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Apart from Clojure, I've started using ClojureScript. So far mainly to build a UI for the software that generates this blog and other small experiments. I like it. Definitely more enjoyable than writing JavaScript. &lt;/p&gt;
+
+&lt;p&gt;What I'd like to look at, but probably won't have time to: Factor.&lt;/p&gt;
+
+&lt;h3&gt; Suplement. (Not Programming. Just small rants.)&lt;/h3&gt;
+
+&lt;p&gt;In the first draft of this post, every paragraph somehow went of  the topic of software development and turned into a rant/praise of particular technology or company. I decided move it down here, because while not directly related to programming, it gives some insight in why I decided to target particular platform this year (or to skip it) .&lt;/p&gt;
+
+&lt;p&gt;I mentioned games as the main reason I still use Windows. But even there the company is desperately trying to get me buy an Xbox (just look at their pathetic Games For Windows initiative. The client looks and works like it's been written by an intern, and then there's &lt;a href=&quot;http://mollyrocket.com/casey/stream_0004.html&quot;&gt;Win 8 marketplace&lt;/a&gt;). I no longer do .NET development for living, so I don't even know what features were added to last version of C#. I'm still using Windows 7 on my desktop, and will probably continue using it until that machine is decommissioned (maybe this year, depends on when new-gen graphics hardware hits the market). I think the new Nokia phones are the best looking devices on the market, but the software running on them is not good enough (go read the reviews, or check Microsoft's wasteland of an app store). So I upgraded my old iPhone to a new one.&lt;/p&gt;
+
+&lt;p&gt;It's been over a year since I bought my first OS X hardware (a MacBook Air) and I have to say I like the experience. Using the desktop is especially nice with the multi-touch trackpad (using gestures for virtual desktops is sweet). Scrolling the contents of a window works just like on today's tablets and phones; as it should. So whenever I have to use someone else's laptop, even for 10 seconds, I'm reminded of how awful the &amp;quot;normal&amp;quot; trackpads are. &lt;/p&gt;
+
+&lt;p&gt;I guess Microsoft still has the money to buy themselves some time to get their shit together. But their overall situation is looking rough. I mean, outside game developers end enterprisey things, why would you target Windows?&lt;/p&gt;
+
+
+
+</description>
+<link>
+http://rosado.haltingproblem.net/late-bound/2013/outlook-2013.html
+</link>
+</item>
 <item>
 <title>
 How this page was made
