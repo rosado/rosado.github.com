@@ -5,7 +5,7 @@
 clj-rss
 </generator>
 <lastBuildDate>
-Mon, 05 May 2014 10:34:26 +0100
+Mon, 05 May 2014 10:42:52 +0100
 </lastBuildDate>
 <title>
 Late Bound
@@ -21,8 +21,6 @@ http://rosado.haltingproblem.net/late-bound/
 Trying Out LightTable
 </title>
 <description>
-&lt;h1&gt; Minor LightTable tweaks&lt;/h1&gt;
-
 &lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. But pairing at someone else's computer was filled with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it's time to fix that and spend some mandatory time with LT.&lt;/p&gt;
 
 &lt;p&gt;One of the first things I recommend everyone to do is to add &lt;/p&gt;
@@ -45,7 +43,7 @@ Trying Out LightTable
 
 </description>
 <link>
-http://rosado.haltingproblem.net/late-bound/2014/2014-05-05-1399281712979.html
+http://rosado.haltingproblem.net/late-bound/2014/2014-05-05-1399282964991.html
 </link>
 </item>
 <item>
