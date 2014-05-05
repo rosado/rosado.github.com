@@ -5,7 +5,7 @@
 clj-rss
 </generator>
 <lastBuildDate>
-Tue, 22 Jan 2013 22:21:08 +0000
+Mon, 05 May 2014 10:24:16 +0100
 </lastBuildDate>
 <title>
 Late Bound
@@ -16,6 +16,38 @@ Roland Sadowski's blog. Mostly about code.
 <link>
 http://rosado.haltingproblem.net/late-bound/
 </link>
+<item>
+<title>
+Trying Out LightTable
+</title>
+<description>
+&lt;h1&gt; Minor LightTable tweaks&lt;/h1&gt;
+
+&lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. But pairing at someone else's computer was filled with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it's time to fix that and spend some mandatory time with LT.&lt;/p&gt;
+
+&lt;p&gt;One of the first things I recommend everyone to do is to add &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:editor.keys.normal {&amp;quot;tab&amp;quot; [:smart-indent-selection]}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to your &lt;code&gt;user.keymap&lt;/code&gt;. I don't think it's productive to be &amp;quot;creative&amp;quot; with indentation. Personally, I also add this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:editor {&amp;quot;alt-m&amp;quot; [:editor.line-start-smart]}
+:editor.keys.hinting.active {&amp;quot;tab&amp;quot; [:auto-complete]}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.&lt;/p&gt;
+
+&lt;p&gt;For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn't in the mood. I'll get to it eventually.&lt;/p&gt;
+
+&lt;p&gt;One of the main selling points of LT was the Instarepl. I've read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn't. I spent around half of last week coding in LT's instarepl and really liked the experience. I'll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the &amp;quot;Live&amp;quot; button to turn it off, but I can't really hold it against the software. &amp;quot;Too much noise&amp;quot; is a very subjective thing to say, so I don't think there	's a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.&lt;/p&gt;
+
+
+</description>
+<link>
+http://rosado.haltingproblem.net/late-bound/2014/2014-05-05-1399281712979.html
+</link>
+</item>
 <item>
 <title>
 Outlook: 2013
