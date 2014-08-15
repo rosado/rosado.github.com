@@ -5,7 +5,7 @@
 clj-rss
 </generator>
 <lastBuildDate>
-Wed, 18 Jun 2014 22:13:25 +0100
+Fri, 15 Aug 2014 14:23:34 +0100
 </lastBuildDate>
 <title>
 Late Bound
@@ -14,8 +14,37 @@ Late Bound
 Roland Sadowski's blog. Mostly about code.
 </description>
 <link>
-http://rosado.haltingproblem.net/late-bound/
+http://rosado.cc/late-bound/
 </link>
+<item>
+<title>
+Most Unit Testing = Waste
+</title>
+<description>
+&lt;p&gt;I had a time to go through some items on my ever-growing reading list. One of those items was an a convincing takedown of the unit testing dogma: &lt;a href=&quot;http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&quot;&gt;Why Most Unit Testing is Waste&lt;/a&gt;. I hope the juicy quotes below will convince you to read it: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Remember, though, that automated crap is still crap. And those of you who have a corporate Lean program might note that the foundations of the Toyota Production System, which were the foundations of Scrum, were very much against the automation of intellectual tasks&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Relation between testing and quality:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Testing does not increase quality; programming and design do. Testing just provides the insights that the team lacked to do a correct design and implementation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And when you're not sure whether to leave or remove a test from your codebase:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So one question to ask about every test is: If this test fails, what business requirement is compromised?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+</description>
+<link>
+http://rosado.haltingproblem.net/late-bound/2014/2014-08-15-1408108561790.html
+</link>
+</item>
 <item>
 <title>
 Trying Out LightTable
