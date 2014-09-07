@@ -5,14 +5,17 @@ p + p {
 	text-indent: 2em;
 	margin-top: 0;
 }
+blockquote p {font-size: 1.6em ;}
 .page-header h1 { text-align: center; color: #777;}
 .page-header h1 small { color: #F02591; }
 .page-header h1 a { text-decoration: none; color: inherit;}
 .page-header h1 a:hover {t ext-decoration: none; }
 .centered { text-align: center; }
-#main-container h1 { margin-top: 1em; margin-bottom: 0.5em; }
+#main-container h1 { margin-top: 0.5em; margin-bottom: 0.5em; text-align: center; }
 /*#main-container .page-header h1 { margin-top: 0.5em; }*/
 .page-header { margin: 0.5em; border-bottom: none; padding-bottom: 0em; }
+#main-container .content p {line-height: 1.6em;}
+#main-container .content blockquote p { line-height: 1.4em; }
 #main-container .content p:first-child { margin-top: 1em;}
 #main-container .content img + p { margin-top: 1em;}
 #main-container .content h4, #main-container .post-body h3 { text-transform: none; }
