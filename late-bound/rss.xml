@@ -5,7 +5,7 @@
 clj-rss
 </generator>
 <lastBuildDate>
-Tue, 28 Oct 2014 17:51:58 +0000
+Wed, 10 Dec 2014 15:55:46 +0000
 </lastBuildDate>
 <title>
 Late Bound
@@ -16,6 +16,104 @@ Roland Sadowski's blog. Mostly about code.
 <link>
 http://rosado.cc/late-bound/
 </link>
+<item>
+<title>
+Using This
+</title>
+<description>
+&lt;p&gt;Once every couple of months I check new interviews on &lt;a href=&quot;http://usesthis.com/&quot;&gt;The Setup&lt;/a&gt;. I do it to compare workflow/tools and to occasionally discover a new piece of software to try out. I thought it’d be interesting to do something similar once every year. Some tools will probably be forgotten, but some will probably stay in use for decades to come (looking at you, Emacs). So here’s my “setup.” &lt;/p&gt;
+
+&lt;h2&gt; Hardware&lt;/h2&gt;
+
+&lt;p&gt;I use two machines; a Windows 8.1 desktop and a 2011 MacBook Air running Yosemite. I have a &lt;a href=&quot;http://steelseries.com/products/keyboards/steelseries-6gv2&quot;&gt;Steelseries 6GV2&lt;/a&gt; mechanical keyboard for the desktop machine. The marketing material says it’s built like a tank and I have to agree. It’s very well built. Also, it’s probably the only gaming keyboard that doesn’t look like a Christmas tree. I have an iPad mini with Retina display, which I mostly use as an ebook reader. I didn’t go for a Kindle because I often read technical books which are unreadable when you reflow the text (or more specifically, code). There’s also an old Lenovo netbook laying on a shelf and used for programming experiments. It’s running Linux. I use an old pair of Sony MDR-V700 headphones when not at my desk. I don’t think they make them anymore but you can still buy &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B005GM3QWQ?psc=1&amp;amp;redirect=true&amp;amp;ref_=oh_aui_search_detailpage&quot;&gt;replacement ear pads&lt;/a&gt; on Amazon; that’s the only part that degrades over time.&lt;/p&gt;
+
+&lt;p&gt;Apart from work, I use my desktop for games. Usually in bursts, which happen once every few weeks. I went deep into a rabbit hole when it comes to flight simulators: I have an ok joystick, &lt;a href=&quot;http://www.chproducts.com/Pro-Throttle-v13-d-719.html&quot;&gt;CH Pro Throttle&lt;/a&gt; and &lt;a href=&quot;http://www.naturalpoint.com/trackir/&quot;&gt;Track IR&lt;/a&gt;. The last one is for head tracking. It’s hard to explain in words but it’s best alternative to VR goggles so far. And essential for flight sims (especially when your plane doesn’t have a radar, like in &lt;a href=&quot;http://riseofflight.com/en&quot;&gt;Rise o Flight&lt;/a&gt;). Another part of the experience is sound, which I get via Razer Tiamat headset. &lt;/p&gt;
+
+&lt;h2&gt; Software&lt;/h2&gt;
+
+&lt;p&gt;Most of my working day is spent doing one of three things: reading documentation (Chrome or PDF reader or iPad), reading or writing code (Emacs or IntelliJ, sometimes Visual Studio). I very much prefer the &lt;a href=&quot;http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released&quot;&gt;Envy Code R&lt;/a&gt; font when possible. Often I reach for &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;, especially when I’m exploring a codebase I’ve just pulled from Github; smooth scrolling, mini map and fast search is something I wish Emacs had (well, I can get search with &lt;code&gt;ack&lt;/code&gt; + ack-mode).&lt;/p&gt;
+
+&lt;p&gt;Blog posts are mostly written using &lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt;. I manage my budget in &lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt;. I use &lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt; to track my tasks. For example, every browser tab that stays open for too long eventually gets filed to the @Someday bucket. Helps to preserve sanity. I listen to my music with iTunes. Or stream it with Spotify, though the janky desktop app sometimes makes me want to ditch it. I use Dropbox to share some of my files between machines (even virtual ones). More sensitive data gets synced with &lt;a href=&quot;http://www.getsync.com/&quot;&gt;Bit Torrent Sync&lt;/a&gt;. Recently I discovered &lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;, which is slightly  more pleasant to use Windows command line. And I’m slowly making moves towards &lt;code&gt;zsh&lt;/code&gt;. I make notes in &lt;a href=&quot;http://hackpad.com/&quot;&gt;Hackpad&lt;/a&gt; quite often.&lt;/p&gt;
+
+&lt;p&gt;I toy around with Game Maker despite the horrible GM Language. The IDE looks like it’s been built in 1997 but it is responsive. A quality many today’s apps lack. I use &lt;a href=&quot;http://pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt; to make, ahem, &lt;em&gt;art&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Apart from writing code I’m learning 3D graphics. I use &lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt; for modeling and &lt;a href=&quot;http://www.allegorithmic.com/products/substance-painter&quot;&gt;Substance Painter&lt;/a&gt; + &lt;a href=&quot;http://www.allegorithmic.com/products/substance-designer&quot;&gt;Substance Designer&lt;/a&gt; for texturing. And some Photoshop.&lt;/p&gt;
+
+&lt;p&gt;I don’t really use that much apps on my phone beyond Maps, web browser, Hipstamatic, Twitter and Instagram. On the iPad I mainly read stuff in the browser, Kindle, iBooks or &lt;a href=&quot;https://www.instapaper.com/&quot;&gt;Instapaper&lt;/a&gt;. I really like the &lt;a href=&quot;http://www.fiftythree.com/paper&quot;&gt;Paper&lt;/a&gt; app by 53. I recently got their &lt;a href=&quot;http://www.fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;, which replaced the &lt;a href=&quot;http://www.studioneat.com/products/cosmonaut&quot;&gt;Cosmonaut&lt;/a&gt; stylus, because I wanted something more precise.&lt;/p&gt;
+
+&lt;h2&gt; Windows &amp;amp; OS X&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Emacs 24.4&lt;/li&gt;
+&lt;li&gt;IntelliJ Idea. With &lt;a href=&quot;https://cursiveclojure.com/&quot;&gt;Cursive&lt;/a&gt; and ANTLR plugins.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.getsync.com/&quot;&gt;Bit Torrent Sync&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;Photoshop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt; Windows&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Total Commander&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Visual Studio 2013 Community Edition&lt;/li&gt;
+&lt;li&gt;Game Maker Studio&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.irfanview.com/&quot;&gt;Irfan View&lt;/a&gt; (for years I read it as &lt;em&gt;In&lt;/em&gt;fra View).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt; OS X&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Caffeine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dash&lt;/li&gt;
+&lt;li&gt;Pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt; Web&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://hackpad.com/&quot;&gt;Hackpad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://trello.com/&quot;&gt;Trello&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+<link>
+http://rosado.haltingproblem.net/late-bound/2014/2014-12-10-1418226185659.html
+</link>
+</item>
 <item>
 <title>
 Most Unit Testing = Waste
