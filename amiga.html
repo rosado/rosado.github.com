@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Amiga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amiga in 2017, OS AmigaOS 4.1">
+    <meta name="author" content="Roland Sadowski">
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/styles/hp.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Dosis:200,400,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://use.typekit.com/paa6pkw.js"></script>
+    <!-- script type="text/javascript">try{Typekit.load();}catch(e){}</script -->
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51945749-1', 'rosado.cc');
+  ga('send', 'pageview');
+
+</script>
+
+  </head>
+
+  <body>
+
+    <div id="main-container" class="container">
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+          <h1>Amiga <small>in 2017</small></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12">
+
+<p>I had an Amiga 600 in the early/mid 90s. I read most of the paper magazines and few of the zines distributed on floppy disks. While The Cult of Mac was never a thing in post-communist Poland, the church of Amiga was very strong.</p>
+
+<p>These were the Amiga's last days. As IBM based PCs started dominating all corners of the market and Commodore went bankrupt, it was very hard for some of the users to let the computer die. </p>
+
+<p>A documentary about the Amiga was released recently: <a href="https://amigafilm.com/">Viva Amiga</a>. It doesn't really give you the full picture (see: demoscene) but it conveys the excitement. Also, I don't think I knew Andy Warhol was on the premiere of A1000.</p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/NHCxvZJW1S8" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Now, Amiga didn't die. Specifically, the AmigaOS changed hands many times but is still developed. Current version of the OS is 4.1 And it's possible to emulate it on current PCs. To do it you need the <a href="http://www.amigaforever.com/">AmigaForever</a> package, which includes classic OS versions and the emulator. Then you need <a href="http://www.amigaos.net/">AmigaOS 4.1</a>. I believe you can also use the free <a href="https://en.wikipedia.org/wiki/UAE_(emulator)">UAE</a> emulator but you'll still need the copyrighted <a href="https://en.wikipedia.org/wiki/Kickstart_(Amiga)">Kickstart</a> ROMs - not sure what is the legal situation around those. </p>
+
+<p>If you're into programming archeology, there's a site with <a href="http://www.retro-commodore.eu/amiga-development/">books</a> about Amiga development.</p>
+
+<h2>Emulating AmigaOS 4.1</h2>
+
+<p>I tried to follow the steps in <a href="http://amiga.net.pl/index.php?lng=pl&amp;kwt=10010&amp;tms=64">Amiga OS 4.1 Emulation</a> book but the OS wouldn't boot after install. </p>
+
+<p>After some research it became obvious the fake hard drive needed extra preparation. Boot the OS using the OS 4.1 floppy+CD and then:</p>
+
+<ul>
+<li>On the installation screen choose &quot;Start the Hard Disk preparation utility [...]&quot;</li>
+<li>when prompted to &quot;Select device to use&quot; choose <code>cybppc.device</code> and click &quot;Start&quot;</li>
+<li>Choose the &quot;Fixed hard disk&quot; created for the emulator then &quot;Edit RDB/Reinstall...&quot; -&gt; &quot;Install/read configuration&quot;. Then &quot;OK.&quot;</li>
+<li>Back in the main Media Toolbox window click &quot;Save to disk&quot; (it may ask you to reboot).</li>
+<li>Again, in the Media Toolbox window click &quot;Edit partitions and filesystems.&quot;</li>
+<li>There shouldn't be any existing partitions. We'll add one but first add a filesystem and choose &quot;SmartFilesystem&quot; from the list.
+
+<ul>
+<li>in Filesystem edit dialog, enter <code>53465302</code> and press Enter (to update the label on the right) then click &quot;OK.&quot;</li>
+</ul></li>
+<li>Add a partition and select a filesystem for it by clicking the &quot;Select filesystem/edit details&quot; button.</li>
+<li>Select &quot;SFS\02&quot; from the list, then &quot;OK.&quot;</li>
+<li>Confirm partition changes by clicking &quot;OK - accept changes.&quot;</li>
+<li>Back in the main Media Toolbox windows click &quot;Save to disk.&quot;</li>
+<li>Close the Media Toolbox window.</li>
+</ul>
+
+<p>Now you can proceed with the installation as described on AmigaForever site.</p>
+
+<p>Why would you want to do any of the above? You got me there.</p>
+
+<p><small><i>Updated: 29 Jan 2017</i></small></p>
+		</div>
+      </div>
+
+      <hr/>
+
+      <footer>
+        <p class="license"><small>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a></small></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
