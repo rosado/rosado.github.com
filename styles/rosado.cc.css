@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Dosis|Ultra');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ====================== CSS Document ========================== */
+
+/*
+  base font-size: 24px;
+*/
+
+* {
+  font-family: Dosis, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+/*  font: normal 100% Dosis, sans-serif;*/
+  color: #333;
+}
+
+body { font-size: 24px; }
+
+header h1 {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #F02591;
+  margin: 0em auto;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main div {
+  margin: 1em auto;
+/*  margin-bottom: 0em;*/
+}
+
+main h1 {
+  margin: 0.5em auto;
+  color: #555;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1.0em;
+}
+
+main h2, main h3, main h4 {
+  margin: 0.5em auto;
+}
+
+main h2 { font-size: 1.4em; }
+main h3 { font-size: 1.1em; }
+main h4 { 
+  font-size: 0.8em;
+  text-transform: uppercase; 
+}
+
+main h4.byline {
+  text-align: center;
+  color: dimgray;
+  margin: 1em auto;
+}
+
+main p, main blockquote, main ul {
+  line-height: 1.4em;
+  word-spacing: 0.1em;
+  margin: auto;
+  margin-bottom: 0em;
+}
+
+/* indent the paragraph */
+main p + p {
+  text-indent: 1.5em;
+  margin-top: 0em;
+}
+
+p.new-thought {
+  text-indent: 1.5em;
+}
+
+main blockquote p {width: 100%;}
+
+main a:link { color: firebrick; }
+main a:active { color: red; }
+main a:visited { color: mediumpurple; }
+
+main img {
+  width: 100%;
+  margin: auto;
+}
+
+main p + img, main img + p, main p + figure, main figure + p {
+  margin-top: 1em;
+}
+
+main figure {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+main figure.fit-to-main {
+  position: relative;
+  margin: auto;
+}
+
+main figure.original-size {
+  position: relative;
+}
+
+main figure.fit-to-main img { width: 100%; }
+main figure.original-size img { width: auto; }
+
+main figure figcaption {
+  font-size: 0.75em;
+}
+
+main figure figcaption:last-child {
+  border-bottom: 1px solid  #B6B6B6;
+}
+
+main figure.fit-to-main figcaption {
+  margin-left: 0em;
+  width: 100%;
+}
+
+main figure.original-size figcaption {
+  margin-left: 0em;
+}
+
+pre, code {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+main pre {
+  margin: auto;
+  font-size: 0.8em;
+}
+
+code {
+  font-size: 0.8em;
+  padding: 2px;
+  background-color: #ececec;
+}
+
+main ul {
+  margin: auto;
+}
+
+main ul li {
+  list-style: outside;
+}
+
+ul.inline-list li {
+  display: inline;
+}
+
+.wrapping-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapping-row figure {
+  width: 25%;
+  margin: 0px 14px 14px 0px;
+  overflow: hidden;
+/*  border: 1px solid;*/
+  flex-basis: 1;
+}
+
+.wrapping-row figure figcaption {
+  width: 100%;
+}
+
+footer { margin: 1.5em auto; }
+
+footer p {
+  font-family: Dosis, sans-serif;
+  font-size: 0.666666666667em;
+  margin: auto;
+}
+
+/*  MEDIA QUERIES */
+
+@media screen and (min-width: 960px) {
+  header h1, main h1, main h2, main h3, main h4, main p, footer p, main div, main pre, main blockquote, main ul,
+  main figure.fit-to-main, main figure.original-size { width: 52.5%; }
+  main figure figcaption {width: 52.5%; margin: auto; }
+  main blockquote {width: 48.5%;}
+  main figure figcaption.overlayed:last-child { left: 23.75%; }
+}
+
+@media screen and (max-width: 959px) {
+  header h1, main h1, main h2, main h3, main h4, main p, footer p, main div, main pre, main blockquote, main ul,
+  main figure.fit-to-main, main figure.original-size { width: 65%; }
+  main figure figcaption {width: 65%; margin: auto; }
+  main blockquote {width: 60%;}
+  main figure figcaption.overlayed:last-child { left: 17.5%; }
+}
+
+@media screen and (max-width: 720px) {
+  header h1, main h1, main h2, main h3, main h4, main p, footer p, main div, main pre, main blockquote, main ul,
+  main figure.fit-to-main, main figure.original-size { width: 95%; }
+  main figure figcaption {width: 95%; margin: auto; }
+  main blockquote {width: 90.5%;}
+  main figure figcaption.overlayed:last-child { left: 2.5%; }
+  
+  /* special cases */
+  main figure.original-size img { width: 100%; }
+  main h1 { font-size: 1.7em; }
+  main ul li {list-style-position: inside; }
+}
+
+/* OVERRIDES */
+
+main figure figcaption {  
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+main figure figcaption.overlayed:last-child {
+  /* see: left in MEDIA Qs */
+  border-bottom: none;
+  padding-bottom: 0em;
+  position: absolute;
+  bottom: 0.0em;
+  font-size: 2em;
+  color: white;
+}
+
+main blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: aliceblue;
+  padding: 0.4em;
+}
+
+
+/******* 
+nice color: blanchedalmond
+*/
+
