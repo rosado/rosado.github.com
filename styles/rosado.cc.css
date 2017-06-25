@@ -227,7 +227,17 @@ footer { margin: 1.5em auto; }
 footer p {
   font-family: Dosis, sans-serif;
   font-size: 0.666666666667em;
-  margin: auto;
+  margin: 1em auto;
+}
+
+footer div#footer-img {
+  background-image: url(http://cc.rosado.public.s3.amazonaws.com/img/flammarion1080_8bit.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  opacity: 0.8;
+  padding-top: 59.8148148148148%; /*(img.h / img.w * width_percent) */
 }
 
 /*  MEDIA QUERIES */
