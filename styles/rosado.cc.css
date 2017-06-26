@@ -267,12 +267,12 @@ footer div#footer-img {
   main figure figcaption {width: 95%; margin: auto; }
   main blockquote {width: 90.5%;}
   main figure figcaption.overlayed:last-child { left: 2.5%; }
+  footer div#footer-img {background-size: cover;}
   
   /* special cases */
   main figure.original-size img { width: 100%; }
   main h1 { font-size: 1.7em; }
   main ul li {list-style-position: inside; }
-  footer div#footer-img {background-size: cover;}
 }
 
 /* OVERRIDES */
