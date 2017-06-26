@@ -227,14 +227,7 @@ footer { margin: 1.5em auto; }
 footer p {
   font-family: Dosis, sans-serif;
   font-size: 0.666666666667em;
-  margin: 1em auto;
-}
-
-footer div#footer-img {
-  background-image: url(http://cc.rosado.public.s3.amazonaws.com/img/flammarion1080_8bit.png);
-  height: 0;
-  opacity: 0.8;
-  padding-top: 59.8148148148148%; /*(img.h / img.w * width_percent) */
+  margin: auto;
 }
 
 /*  MEDIA QUERIES */
@@ -245,11 +238,6 @@ footer div#footer-img {
   main figure figcaption {width: 52.5%; margin: auto; }
   main blockquote {width: 48.5%;}
   main figure figcaption.overlayed:last-child { left: 23.75%; }
-  footer div#footer-img {
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 959px) {
@@ -258,16 +246,14 @@ footer div#footer-img {
   main figure figcaption {width: 65%; margin: auto; }
   main blockquote {width: 60%;}
   main figure figcaption.overlayed:last-child { left: 17.5%; }
-  footer div#footer-img { background-size: cover;}
 }
 
-@media screen and (max-device-width: 720px) {
+@media screen and (max-width: 720px) {
   header h1, main h1, main h2, main h3, main h4, main p, footer p, main div, main pre, main blockquote, main ul,
   main figure.fit-to-main, main figure.original-size { width: 95%; }
   main figure figcaption {width: 95%; margin: auto; }
   main blockquote {width: 90.5%;}
   main figure figcaption.overlayed:last-child { left: 2.5%; }
-  div#footer-img { padding-top: 0%; }
   
   /* special cases */
   main figure.original-size img { width: 100%; }
