@@ -261,7 +261,7 @@ footer div#footer-img {
   footer div#footer-img { background-size: cover;}
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-device-width: 720px) {
   header h1, main h1, main h2, main h3, main h4, main p, footer p, main div, main pre, main blockquote, main ul,
   main figure.fit-to-main, main figure.original-size { width: 95%; }
   main figure figcaption {width: 95%; margin: auto; }
