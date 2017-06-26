@@ -267,7 +267,7 @@ footer div#footer-img {
   main figure figcaption {width: 95%; margin: auto; }
   main blockquote {width: 90.5%;}
   main figure figcaption.overlayed:last-child { left: 2.5%; }
-  footer div#footer-img {background-size: cover;}
+  div#footer-img { padding-top: 0%; }
   
   /* special cases */
   main figure.original-size img { width: 100%; }
