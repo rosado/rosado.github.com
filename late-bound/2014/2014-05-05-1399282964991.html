@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Trying Out LightTable - Late Bound</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Roland Sadowski's blog" />
-    <meta name="author" content="Roland Sadowski" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title>Trying Out LightTable</title>
+    <meta name="description" content="Roland Sadowski's blog">
+    <meta name="author" content="Roland Sadowski">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/late-bound/rss.xml" />
 
     <!-- Styles -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/styles/hp.css" rel="stylesheet" />
     <link href="/styles/late-bound.css" rel="stylesheet" type="text/css" />
-    
-    <link href="http://fonts.googleapis.com/css?family=Dosis:200,400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
     <script type="text/javascript" src="http://use.typekit.com/paa6pkw.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -22,16 +21,16 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-51945749-1', 'rosado.cc');
-  ga('send', 'pageview');
+    ga('create', 'UA-51945749-1', 'rosado.cc');
+    ga('send', 'pageview');
 
-</script>
+  </script>
 
   </head>
 
@@ -40,51 +39,47 @@
     <div id="main-container" class="container">
 
       <div class="row-fluid">
-
         <div class="span12 page-header">
           <h1><a href="/late-bound/">Late Bound</a> <small>Highly Popular Blog</small></h1>
         </div>
-     
       </div>
 
       <div class="row-fluid">
-
         <div class="span12 content lb-post" id="content">
           <h1>Trying Out LightTable</h1>
-          <div><p>Most of my co-workers use <a href="http://www.lighttable.com/">LightTable</a> to write Clojure code. My editor of choice is Emacs. Pairing at someone else's computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it's time to fix that and spend some mandatory time with LT.</p>
 
-<p>One of the first things I recommend everyone to do is to add </p>
+          <p>Most of my co-workers use <a href="http://www.lighttable.com/">LightTable</a> to write Clojure code. My editor of choice is Emacs. Pairing at someone else's computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it's time to fix that and spend some mandatory time with LT.</p>
 
-<pre><code>:editor.keys.normal {"tab" [:smart-indent-selection]}
-</code></pre>
+          <p>One of the first things I recommend everyone to do is to add </p>
 
-<p>to your <code>user.keymap</code>. I don't think it's productive to be "creative" with indentation. Personally, I also add this:</p>
+          <pre><code>:editor.keys.normal {&quot;tab&quot; [:smart-indent-selection]}
+          </code></pre>
 
-<pre><code>:editor {"alt-m" [:editor.line-start-smart]}
-:editor.keys.hinting.active {"tab" [:auto-complete]}
-</code></pre>
+          <p>to your <code>user.keymap</code>. I don't think it's productive to be &quot;creative&quot; with indentation. Personally, I also add this:</p>
 
-<p>First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.</p>
+          <pre><code>:editor {&quot;alt-m&quot; [:editor.line-start-smart]}
+          :editor.keys.hinting.active {&quot;tab&quot; [:auto-complete]}
+          </code></pre>
 
-<p>For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn't in the mood. I'll get to it eventually.</p>
+          <p>First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.</p>
 
-<p>One of the main selling points of LT was the Instarepl. I've read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn't. I spent around half of last week coding in LT's instarepl and really liked the experience. I'll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the "Live" button to turn it off, but I can't really hold it against the software. "Too much noise" is a very subjective thing to say, so I don't think there	's a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.</p>
+          <p>For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn't in the mood. I'll get to it eventually.</p>
 
-</div>
+          <p>One of the main selling points of LT was the Instarepl. I've read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn't. I spent around half of last week coding in LT's instarepl and really liked the experience. I'll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the &quot;Live&quot; button to turn it off, but I can't really hold it against the software. &quot;Too much noise&quot; is a very subjective thing to say, so I don't think there	's a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.</p>
+
+
 
           <div class="post-footer">
             <div class="row-fluid">
               <div cass="span12">
-                <p class="centered"><img src="http://rosado-late-bound.s3.amazonaws.com/candide19.gif" /></p>
+                <p class="centered"><img src="http://rosado-late-bound.s3.amazonaws.com/candide19.gif"></p>
                 <p>
-                  posted by roland on <span>05 May 2014</span>,
-                  <span><a href="http://rosado.cc/late-bound/2014/2014-05-05-1399282964991.html" href="permalink">permalink</a></span>
+                  posted by roland on <span class="date">05 May 2014</span>,
+                  <span><a class="permalink" href="/late-bound/2014/2014-05-05-1399282964991.html">permalink</a></span>
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      
       </div>
 
       <div class="row-fluid nav-links">
@@ -108,5 +103,4 @@
     <!-- Placed at the end of the document so the pages load faster -->
 
   </body>
-
 </html>

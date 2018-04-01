@@ -1,231 +1,192 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss version='2.0'>
-<channel>
-<generator>
-clj-rss
-</generator>
-<lastBuildDate>
-Mon, 15 Dec 2014 02:16:40 +0000
-</lastBuildDate>
-<title>
-Late Bound
-</title>
-<description>
-Roland Sadowski's blog. Mostly about code.
-</description>
-<link>
-http://rosado.cc/late-bound/
-</link>
-<item>
-<title>
-Using This
-</title>
-<description>
-&lt;p&gt;Once every couple of months I check new interviews on &lt;a href=&quot;http://usesthis.com/&quot;&gt;The Setup&lt;/a&gt;. I do it to compare workflow/tools and to occasionally discover a new piece of software to try out. I thought it’d be interesting to do something similar once every year. Some tools will probably be forgotten, but some will probably stay in use for decades to come (looking at you, Emacs). So here’s my “setup.” &lt;/p&gt;
+  <channel>
+  <generator>cc.rosado.website</generator>
+  <lastBuildDate>Sun, 1 Apr 2018 17:39:57 +0100</lastBuildDate>
+  <title>Late Bound</title>
+  <description>Highly Popular Blog</description>
+  <link>http://rosado.cc/late-bound</link>
+  <item>
+    <title>How this page was made</title>
+    <pubDate>Mon, 24 Dec 2012 08:07:56 GMT</pubDate>
+    <description>&lt;p&gt;The world clearly does have enough blogging software, but I&#39;m writing my own anyway. It&#39;s closer to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyl&lt;/a&gt; than to Wordpress as it&#39;s static site generator. It has a web interface, uses a database (embedded one, but I&#39;ll eventually make storage a plugin feature), and allows adding  ClojureScript driven pages to the site. The last one will allow to add one off experiments the website easily.&lt;/p&gt;
 
-&lt;h2&gt; Hardware&lt;/h2&gt;
+  &lt;p&gt;Apart from doing its job (e.g. generating this site), the project is an experiment in writing a Clojure+ClojureScript application. The Clojure side is straightforward. It&#39;s the UI that I think I spent the most time on. I don&#39;t do UI or JavaScript programming at my current job, so I had to get familiar with &lt;a href=&quot;https://developers.google.com/closure/&quot;&gt;Google Closure&lt;/a&gt; library and other web stuff.&lt;/p&gt;
 
-&lt;p&gt;I use two machines; a Windows 8.1 desktop and a 2011 MacBook Air running Yosemite. I have a &lt;a href=&quot;http://steelseries.com/products/keyboards/steelseries-6gv2&quot;&gt;Steelseries 6GV2&lt;/a&gt; mechanical keyboard for the desktop machine. The marketing material says it’s built like a tank and I have to agree. It’s very well built. Also, it’s probably the only gaming keyboard that doesn’t look like a Christmas tree. I have an iPad mini with Retina display, which I mostly use as an ebook reader. I didn’t go for a Kindle because I often read technical books which are unreadable when you reflow the text (or more specifically, code). There’s also an old Lenovo netbook laying on a shelf and used for programming experiments. It’s running Linux. I use an old pair of Sony MDR-V700 headphones when not at my desk. I don’t think they make them anymore but you can still buy &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B005GM3QWQ?psc=1&amp;amp;redirect=true&amp;amp;ref_=oh_aui_search_detailpage&quot;&gt;replacement ear pads&lt;/a&gt; on Amazon; that’s the only part that degrades over time.&lt;/p&gt;
+  &lt;p&gt;Currently the basic features are ready but the last 20% of polish is not there. And I really need to get around to making the web interface look pretty; it&#39;s ugly and full of placeholder text. That&#39;s why I won&#39;t be releasing it in the near future. &lt;/p&gt;
 
-&lt;p&gt;Apart from work, I use my desktop for games. Usually in bursts, which happen once every few weeks. I went deep into a rabbit hole when it comes to flight simulators: I have an ok joystick, &lt;a href=&quot;http://www.chproducts.com/Pro-Throttle-v13-d-719.html&quot;&gt;CH Pro Throttle&lt;/a&gt; and &lt;a href=&quot;http://www.naturalpoint.com/trackir/&quot;&gt;Track IR&lt;/a&gt;. The last one is for head tracking. It’s hard to explain in words but it’s best alternative to VR goggles so far. And essential for flight sims (especially when your plane doesn’t have a radar, like in &lt;a href=&quot;http://riseofflight.com/en&quot;&gt;Rise o Flight&lt;/a&gt;). Another part of the experience is sound, which I get via Razer Tiamat headset. &lt;/p&gt;
+  &lt;p&gt;I plan to work on it in bursts, to complete some of the fancy features (e.g. I want a something resembling the Facebook timeline). The next thing I&#39;ll be working on is a small UI widget library in ClojureScript, taking into consideration some of the reactive programming libraries and languages. Sometime next year, I think.&lt;/p&gt;
 
-&lt;h2&gt; Software&lt;/h2&gt;
 
-&lt;p&gt;Most of my working day is spent doing one of three things: reading documentation (Chrome or PDF reader or iPad), reading or writing code (Emacs or IntelliJ, sometimes Visual Studio). I very much prefer the &lt;a href=&quot;http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released&quot;&gt;Envy Code R&lt;/a&gt; font when possible. Often I reach for &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;, especially when I’m exploring a codebase I’ve just pulled from Github; smooth scrolling, mini map and fast search is something I wish Emacs had (well, I can get search with &lt;code&gt;ack&lt;/code&gt; + ack-mode).&lt;/p&gt;
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2012/2012-12-24-1356336476689.html</guid>
+  </item><item>
+    <title>Outlook: 2013</title>
+    <pubDate>Tue, 22 Jan 2013 22:11:04 GMT</pubDate>
+    <description>&lt;p&gt;I&#39;ll try to describe my software development outlook for 2013. I&#39;d like to read it a year from now and do a &amp;quot;diff.&amp;quot; &lt;/p&gt;
 
-&lt;p&gt;Blog posts are mostly written using &lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt;. I manage my budget in &lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt;. I use &lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt; to track my tasks. For example, every browser tab that stays open for too long eventually gets filed to the @Someday bucket. Helps to preserve sanity. I listen to my music with iTunes. Or stream it with Spotify, though the janky desktop app sometimes makes me want to ditch it. I use Dropbox to share some of my files between machines (even virtual ones). More sensitive data gets synced with &lt;a href=&quot;http://www.getsync.com/&quot;&gt;Bit Torrent Sync&lt;/a&gt;. Recently I discovered &lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;, which is slightly  more pleasant to use Windows command line. And I’m slowly making moves towards &lt;code&gt;zsh&lt;/code&gt;. I make notes in &lt;a href=&quot;http://hackpad.com/&quot;&gt;Hackpad&lt;/a&gt; quite often.&lt;/p&gt;
+  &lt;p&gt;Microsoft lost me almost completely. Games are the only reason I still have my Windows 7 desktop machine. I have no interest in developing Win RT or Win 8 phone application (or whatever those things are called, Microsoft came up with another brilliant naming scheme). I&#39;ll be doing some C/C++ work but most of it will not involve going deep into Win32 APIs. &lt;/p&gt;
 
-&lt;p&gt;I toy around with Game Maker despite the horrible GM Language. The IDE looks like it’s been built in 1997 but it is responsive. A quality many today’s apps lack. I use &lt;a href=&quot;http://pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt; to make, ahem, &lt;em&gt;art&lt;/em&gt;.&lt;/p&gt;
+  &lt;p&gt;What about .NET? I don&#39;t use this platform professionally	anymore, so I mostly don&#39;t care. I have a personal project in C# that I really want to finish, and that will probably be all the .NET programming that I&#39;ll do this year. Though, if I seriously decide to  do some iOS/Mac OS programming, I may pick up &lt;a href=&quot;http://xamarin.com/&quot;&gt;Xamarin&lt;/a&gt;&#39;s product. Finally, I upgraded Resharper in december (JetBrains had a &amp;quot;End of the World&amp;quot; sale), so I should make some use of it. Still using VS2010, though. I can&#39;t justify buying new Visual Studio edition.&lt;/p&gt;
 
-&lt;p&gt;Apart from writing code I’m learning 3D graphics. I use &lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt; for modeling and &lt;a href=&quot;http://www.allegorithmic.com/products/substance-painter&quot;&gt;Substance Painter&lt;/a&gt; + &lt;a href=&quot;http://www.allegorithmic.com/products/substance-designer&quot;&gt;Substance Designer&lt;/a&gt; for texturing. And some Photoshop.&lt;/p&gt;
+  &lt;p&gt;At work I use a mix of Clojure and Java, at home I code mostly with Clojure, so JVM is my main platform at the moment. With the difference that at work I have to use Windows, at home I use either OS X (on my laptop) or Linux (on the desktop, in a VM). For some reason Unix variants are nicer to work with when using Clojure. This is mostly related to all the command line bells and whistles that Windows lack. In theory stuff should run fine everywhere but it turns out even apache commons libs or other core components of the ecosystem fail on Microsoft&#39;s OS, because you&#39;ve dared to put a file on a drive different than &lt;code&gt;C:&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;I don’t really use that much apps on my phone beyond Maps, web browser, Hipstamatic, Twitter and Instagram. On the iPad I mainly read stuff in the browser, Kindle, iBooks or &lt;a href=&quot;https://www.instapaper.com/&quot;&gt;Instapaper&lt;/a&gt;. I really like the &lt;a href=&quot;http://www.fiftythree.com/paper&quot;&gt;Paper&lt;/a&gt; app by 53. I recently got their &lt;a href=&quot;http://www.fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;, which replaced the &lt;a href=&quot;http://www.studioneat.com/products/cosmonaut&quot;&gt;Cosmonaut&lt;/a&gt; stylus, because I wanted something more precise.&lt;/p&gt;
+  &lt;p&gt;Apart from Clojure, I&#39;ve started using ClojureScript. So far mainly to build a UI for the software that generates this blog and other small experiments. I like it. Definitely more enjoyable than writing JavaScript. &lt;/p&gt;
 
-&lt;h2&gt; Windows &amp;amp; OS X&lt;/h2&gt;
+  &lt;p&gt;What I&#39;d like to look at, but probably won&#39;t have time to: Factor.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Emacs 24.4&lt;/li&gt;
-&lt;li&gt;IntelliJ Idea. With &lt;a href=&quot;https://cursiveclojure.com/&quot;&gt;Cursive&lt;/a&gt; and ANTLR plugins.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.getsync.com/&quot;&gt;Bit Torrent Sync&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Evernote&lt;/li&gt;
-&lt;li&gt;Photoshop&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;h3&gt; Suplement. (Not Programming. Just small rants.)&lt;/h3&gt;
 
-&lt;h2&gt; Windows&lt;/h2&gt;
+  &lt;p&gt;In the first draft of this post, every paragraph somehow went of  the topic of software development and turned into a rant/praise of particular technology or company. I decided move it down here, because while not directly related to programming, it gives some insight in why I decided to target particular platform this year (or to skip it) .&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Total Commander&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Visual Studio 2013 Community Edition&lt;/li&gt;
-&lt;li&gt;Game Maker Studio&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.irfanview.com/&quot;&gt;Irfan View&lt;/a&gt; (for years I read it as &lt;em&gt;In&lt;/em&gt;fra View).&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;p&gt;I mentioned games as the main reason I still use Windows. But even there the company is desperately trying to get me buy an Xbox (just look at their pathetic Games For Windows initiative. The client looks and works like it&#39;s been written by an intern, and then there&#39;s &lt;a href=&quot;http://mollyrocket.com/casey/stream_0004.html&quot;&gt;Win 8 marketplace&lt;/a&gt;). I no longer do .NET development for living, so I don&#39;t even know what features were added to last version of C#. I&#39;m still using Windows 7 on my desktop, and will probably continue using it until that machine is decommissioned (maybe this year, depends on when new-gen graphics hardware hits the market). I think the new Nokia phones are the best looking devices on the market, but the software running on them is not good enough (go read the reviews, or check Microsoft&#39;s wasteland of an app store). So I upgraded my old iPhone to a new one.&lt;/p&gt;
 
-&lt;h2&gt; OS X&lt;/h2&gt;
+  &lt;p&gt;It&#39;s been over a year since I bought my first OS X hardware (a MacBook Air) and I have to say I like the experience. Using the desktop is especially nice with the multi-touch trackpad (using gestures for virtual desktops is sweet). Scrolling the contents of a window works just like on today&#39;s tablets and phones; as it should. So whenever I have to use someone else&#39;s laptop, even for 10 seconds, I&#39;m reminded of how awful the &amp;quot;normal&amp;quot; trackpads are. &lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Caffeine&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dash&lt;/li&gt;
-&lt;li&gt;Pages&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;p&gt;I guess Microsoft still has the money to buy themselves some time to get their shit together. But their overall situation is looking rough. I mean, outside game developers end enterprisey things, why would you target Windows?&lt;/p&gt;
 
-&lt;h2&gt; Web&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://hackpad.com/&quot;&gt;Hackpad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://trello.com/&quot;&gt;Trello&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Twitter&lt;/li&gt;
-&lt;/ul&gt;
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2013/outlook-2013.html</guid>
+  </item><item>
+    <title>Trying Out LightTable</title>
+    <pubDate>Mon, 5 May 2014 10:42:44 GMT</pubDate>
+    <description>&lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. Pairing at someone else&#39;s computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it&#39;s time to fix that and spend some mandatory time with LT.&lt;/p&gt;
 
+  &lt;p&gt;One of the first things I recommend everyone to do is to add &lt;/p&gt;
 
+  &lt;pre&gt;&lt;code&gt;:editor.keys.normal {&amp;quot;tab&amp;quot; [:smart-indent-selection]}
+  &lt;/code&gt;&lt;/pre&gt;
 
+  &lt;p&gt;to your &lt;code&gt;user.keymap&lt;/code&gt;. I don&#39;t think it&#39;s productive to be &amp;quot;creative&amp;quot; with indentation. Personally, I also add this:&lt;/p&gt;
 
+  &lt;pre&gt;&lt;code&gt;:editor {&amp;quot;alt-m&amp;quot; [:editor.line-start-smart]}
+  :editor.keys.hinting.active {&amp;quot;tab&amp;quot; [:auto-complete]}
+  &lt;/code&gt;&lt;/pre&gt;
 
+  &lt;p&gt;First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.&lt;/p&gt;
 
+  &lt;p&gt;For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn&#39;t in the mood. I&#39;ll get to it eventually.&lt;/p&gt;
 
+  &lt;p&gt;One of the main selling points of LT was the Instarepl. I&#39;ve read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn&#39;t. I spent around half of last week coding in LT&#39;s instarepl and really liked the experience. I&#39;ll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the &amp;quot;Live&amp;quot; button to turn it off, but I can&#39;t really hold it against the software. &amp;quot;Too much noise&amp;quot; is a very subjective thing to say, so I don&#39;t think there	&#39;s a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.&lt;/p&gt;
 
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-05-05-1399282964991.html</guid>
+  </item><item>
+    <title>Most Unit Testing = Waste</title>
+    <pubDate>Fri, 15 Aug 2014 14:16:01 GMT</pubDate>
+    <description>&lt;p&gt;I had a time to go through some items on my ever-growing reading list. One of those items was an a convincing takedown of the unit testing dogma: &lt;a href=&quot;http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&quot;&gt;Why Most Unit Testing is Waste&lt;/a&gt;. I hope the juicy quotes below will convince you to read it: &lt;/p&gt;
 
+  &lt;blockquote&gt;
+  &lt;p&gt;Remember, though, that automated crap is still crap. And those of you who have a corporate Lean program might note that the foundations of the Toyota Production System, which were the foundations of Scrum, were very much against the automation of intellectual tasks&lt;/p&gt;
+  &lt;/blockquote&gt;
 
+  &lt;p&gt;Relation between testing and quality:&lt;/p&gt;
 
+  &lt;blockquote&gt;
+  &lt;p&gt;Testing does not increase quality; programming and design do. Testing just provides the insights that the team lacked to do a correct design and implementation.&lt;/p&gt;
+  &lt;/blockquote&gt;
 
+  &lt;p&gt;And when you&#39;re not sure whether to leave or remove a test from your codebase:&lt;/p&gt;
 
+  &lt;blockquote&gt;
+  &lt;p&gt;So one question to ask about every test is: If this test fails, what business requirement is compromised?&lt;/p&gt;
+  &lt;/blockquote&gt;
 
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-08-15-1408108561790.html</guid>
+  </item><item>
+    <title>Using This</title>
+    <pubDate>Wed, 10 Dec 2014 15:43:05 GMT</pubDate>
+    <description>&lt;p&gt;Once every couple of months I check new interviews on &lt;a href=&quot;http://usesthis.com/&quot;&gt;The Setup&lt;/a&gt;. I do it to compare workflow/tools and to occasionally discover a new piece of software to try out. I thought it’d be interesting to do something similar once every year. Some tools will probably be forgotten, but some will probably stay in use for decades to come (looking at you, Emacs). So here’s my “setup.” &lt;/p&gt;
 
+  &lt;h2&gt; Hardware&lt;/h2&gt;
 
+  &lt;p&gt;I use two machines; a Windows 8.1 desktop and a 2011 MacBook Air running Yosemite. I have a &lt;a href=&quot;http://steelseries.com/products/keyboards/steelseries-6gv2&quot;&gt;Steelseries 6GV2&lt;/a&gt; mechanical keyboard for the desktop machine. The marketing material says it’s built like a tank and I have to agree. It’s very well built. Also, it’s probably the only gaming keyboard that doesn’t look like a Christmas tree. I have an iPad mini with Retina display, which I mostly use as an ebook reader. I didn’t go for a Kindle because I often read technical books which are unreadable when you reflow the text (or more specifically, code). There’s also an old Lenovo netbook laying on a shelf and used for programming experiments. It’s running Linux. I use an old pair of Sony MDR-V700 headphones when not at my desk. I don’t think they make them anymore but you can still buy &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B005GM3QWQ?psc=1&amp;amp;redirect=true&amp;amp;ref_=oh_aui_search_detailpage&quot;&gt;replacement ear pads&lt;/a&gt; on Amazon; that’s the only part that degrades over time.&lt;/p&gt;
 
+  &lt;p&gt;Apart from work, I use my desktop for games. Usually in bursts, which happen once every few weeks. I went deep into a rabbit hole when it comes to flight simulators: I have an ok joystick, &lt;a href=&quot;http://www.chproducts.com/Pro-Throttle-v13-d-719.html&quot;&gt;CH Pro Throttle&lt;/a&gt; and &lt;a href=&quot;http://www.naturalpoint.com/trackir/&quot;&gt;Track IR&lt;/a&gt;. The last one is for head tracking. It’s hard to explain in words but it’s best alternative to VR goggles so far. And essential for flight sims (especially when your plane doesn’t have a radar, like in &lt;a href=&quot;http://riseofflight.com/en&quot;&gt;Rise o Flight&lt;/a&gt;). Another part of the experience is sound, which I get via Razer Tiamat headset. &lt;/p&gt;
 
+  &lt;h2&gt; Software&lt;/h2&gt;
 
+  &lt;p&gt;Most of my working day is spent doing one of three things: reading documentation (Chrome or PDF reader or iPad), reading or writing code (Emacs or IntelliJ, sometimes Visual Studio). I very much prefer the &lt;a href=&quot;http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released&quot;&gt;Envy Code R&lt;/a&gt; font when possible. Often I reach for &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;, especially when I’m exploring a codebase I’ve just pulled from Github; smooth scrolling, mini map and fast search is something I wish Emacs had (well, I can get search with &lt;code&gt;ack&lt;/code&gt; + ack-mode).&lt;/p&gt;
 
+  &lt;p&gt;Blog posts are mostly written using &lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt;. I manage my budget in &lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt;. I use &lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt; to track my tasks. For example, every browser tab that stays open for too long eventually gets filed to the @Someday bucket. Helps to preserve sanity. I listen to my music with iTunes. Or stream it with Spotify, though the janky desktop app sometimes makes me want to ditch it. I use Dropbox to share some of my files between machines (even virtual ones). More sensitive data gets synced with &lt;a href=&quot;http://www.getsync.com/&quot;&gt;Bit Torrent Sync&lt;/a&gt;. Recently I discovered &lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;, which is slightly  more pleasant to use Windows command line. And I’m slowly making moves towards &lt;code&gt;zsh&lt;/code&gt;. I make notes in &lt;a href=&quot;http://hackpad.com/&quot;&gt;Hackpad&lt;/a&gt; quite often.&lt;/p&gt;
 
+  &lt;p&gt;I toy around with Game Maker despite the horrible GM Language. The IDE looks like it’s been built in 1997 but it is responsive. A quality many today’s apps lack. I use &lt;a href=&quot;http://pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt; to make, ahem, &lt;em&gt;art&lt;/em&gt;.&lt;/p&gt;
 
+  &lt;p&gt;Apart from writing code I’m learning 3D graphics. I use &lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt; for modeling and &lt;a href=&quot;http://www.allegorithmic.com/products/substance-painter&quot;&gt;Substance Painter&lt;/a&gt; + &lt;a href=&quot;http://www.allegorithmic.com/products/substance-designer&quot;&gt;Substance Designer&lt;/a&gt; for texturing. And some Photoshop.&lt;/p&gt;
 
+  &lt;p&gt;I don’t really use that much apps on my phone beyond Maps, web browser, Hipstamatic, Twitter and Instagram. On the iPad I mainly read stuff in the browser, Kindle, iBooks or &lt;a href=&quot;https://www.instapaper.com/&quot;&gt;Instapaper&lt;/a&gt;. I really like the &lt;a href=&quot;http://www.fiftythree.com/paper&quot;&gt;Paper&lt;/a&gt; app by 53. I recently got their &lt;a href=&quot;http://www.fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;, which replaced the &lt;a href=&quot;http://www.studioneat.com/products/cosmonaut&quot;&gt;Cosmonaut&lt;/a&gt; stylus, because I wanted something more precise.&lt;/p&gt;
 
+  &lt;h2&gt; Windows &amp;amp; OS X&lt;/h2&gt;
 
+  &lt;ul&gt;
+  &lt;li&gt;Emacs 24.4&lt;/li&gt;
+  &lt;li&gt;IntelliJ Idea. With &lt;a href=&quot;https://cursiveclojure.com/&quot;&gt;Cursive&lt;/a&gt; and ANTLR plugins.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.getsync.com/&quot;&gt;Bit Torrent Sync&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Evernote&lt;/li&gt;
+  &lt;li&gt;Photoshop&lt;/li&gt;
+  &lt;/ul&gt;
 
+  &lt;h2&gt; Windows&lt;/h2&gt;
 
-</description>
-<link>
-http://rosado.cc/late-bound/2014/2014-12-10-1418226185659.html
-</link>
-</item>
-<item>
-<title>
-Most Unit Testing = Waste
-</title>
-<description>
-&lt;p&gt;I had a time to go through some items on my ever-growing reading list. One of those items was an a convincing takedown of the unit testing dogma: &lt;a href=&quot;http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&quot;&gt;Why Most Unit Testing is Waste&lt;/a&gt;. I hope the juicy quotes below will convince you to read it: &lt;/p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;Total Commander&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Visual Studio 2013 Community Edition&lt;/li&gt;
+  &lt;li&gt;Game Maker Studio&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.irfanview.com/&quot;&gt;Irfan View&lt;/a&gt; (for years I read it as &lt;em&gt;In&lt;/em&gt;fra View).&lt;/li&gt;
+  &lt;/ul&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Remember, though, that automated crap is still crap. And those of you who have a corporate Lean program might note that the foundations of the Toyota Production System, which were the foundations of Scrum, were very much against the automation of intellectual tasks&lt;/p&gt;
-&lt;/blockquote&gt;
+  &lt;h2&gt; OS X&lt;/h2&gt;
 
-&lt;p&gt;Relation between testing and quality:&lt;/p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Caffeine&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Dash&lt;/li&gt;
+  &lt;li&gt;Pages&lt;/li&gt;
+  &lt;/ul&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Testing does not increase quality; programming and design do. Testing just provides the insights that the team lacked to do a correct design and implementation.&lt;/p&gt;
-&lt;/blockquote&gt;
+  &lt;h2&gt; Web&lt;/h2&gt;
 
-&lt;p&gt;And when you're not sure whether to leave or remove a test from your codebase:&lt;/p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hackpad.com/&quot;&gt;Hackpad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://trello.com/&quot;&gt;Trello&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twitter&lt;/li&gt;
+  &lt;/ul&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;So one question to ask about every test is: If this test fails, what business requirement is compromised?&lt;/p&gt;
-&lt;/blockquote&gt;
 
 
-</description>
-<link>
-http://rosado.cc/late-bound/2014/2014-08-15-1408108561790.html
-</link>
-</item>
-<item>
-<title>
-Trying Out LightTable
-</title>
-<description>
-&lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. Pairing at someone else's computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it's time to fix that and spend some mandatory time with LT.&lt;/p&gt;
 
-&lt;p&gt;One of the first things I recommend everyone to do is to add &lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;:editor.keys.normal {&amp;quot;tab&amp;quot; [:smart-indent-selection]}
-&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;to your &lt;code&gt;user.keymap&lt;/code&gt;. I don't think it's productive to be &amp;quot;creative&amp;quot; with indentation. Personally, I also add this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;:editor {&amp;quot;alt-m&amp;quot; [:editor.line-start-smart]}
-:editor.keys.hinting.active {&amp;quot;tab&amp;quot; [:auto-complete]}
-&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.&lt;/p&gt;
 
-&lt;p&gt;For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn't in the mood. I'll get to it eventually.&lt;/p&gt;
 
-&lt;p&gt;One of the main selling points of LT was the Instarepl. I've read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn't. I spent around half of last week coding in LT's instarepl and really liked the experience. I'll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the &amp;quot;Live&amp;quot; button to turn it off, but I can't really hold it against the software. &amp;quot;Too much noise&amp;quot; is a very subjective thing to say, so I don't think there	's a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.&lt;/p&gt;
 
 
-</description>
-<link>
-http://rosado.cc/late-bound/2014/2014-05-05-1399282964991.html
-</link>
-</item>
-<item>
-<title>
-Outlook: 2013
-</title>
-<description>
-&lt;p&gt;I'll try to describe my software development outlook for 2013. I'd like to read it a year from now and do a &amp;quot;diff.&amp;quot; &lt;/p&gt;
 
-&lt;p&gt;Microsoft lost me almost completely. Games are the only reason I still have my Windows 7 desktop machine. I have no interest in developing Win RT or Win 8 phone application (or whatever those things are called, Microsoft came up with another brilliant naming scheme). I'll be doing some C/C++ work but most of it will not involve going deep into Win32 APIs. &lt;/p&gt;
 
-&lt;p&gt;What about .NET? I don't use this platform professionally	anymore, so I mostly don't care. I have a personal project in C# that I really want to finish, and that will probably be all the .NET programming that I'll do this year. Though, if I seriously decide to  do some iOS/Mac OS programming, I may pick up &lt;a href=&quot;http://xamarin.com/&quot;&gt;Xamarin&lt;/a&gt;'s product. Finally, I upgraded Resharper in december (JetBrains had a &amp;quot;End of the World&amp;quot; sale), so I should make some use of it. Still using VS2010, though. I can't justify buying new Visual Studio edition.&lt;/p&gt;
 
-&lt;p&gt;At work I use a mix of Clojure and Java, at home I code mostly with Clojure, so JVM is my main platform at the moment. With the difference that at work I have to use Windows, at home I use either OS X (on my laptop) or Linux (on the desktop, in a VM). For some reason Unix variants are nicer to work with when using Clojure. This is mostly related to all the command line bells and whistles that Windows lack. In theory stuff should run fine everywhere but it turns out even apache commons libs or other core components of the ecosystem fail on Microsoft's OS, because you've dared to put a file on a drive different than &lt;code&gt;C:&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Apart from Clojure, I've started using ClojureScript. So far mainly to build a UI for the software that generates this blog and other small experiments. I like it. Definitely more enjoyable than writing JavaScript. &lt;/p&gt;
 
-&lt;p&gt;What I'd like to look at, but probably won't have time to: Factor.&lt;/p&gt;
 
-&lt;h3&gt; Suplement. (Not Programming. Just small rants.)&lt;/h3&gt;
 
-&lt;p&gt;In the first draft of this post, every paragraph somehow went of  the topic of software development and turned into a rant/praise of particular technology or company. I decided move it down here, because while not directly related to programming, it gives some insight in why I decided to target particular platform this year (or to skip it) .&lt;/p&gt;
 
-&lt;p&gt;I mentioned games as the main reason I still use Windows. But even there the company is desperately trying to get me buy an Xbox (just look at their pathetic Games For Windows initiative. The client looks and works like it's been written by an intern, and then there's &lt;a href=&quot;http://mollyrocket.com/casey/stream_0004.html&quot;&gt;Win 8 marketplace&lt;/a&gt;). I no longer do .NET development for living, so I don't even know what features were added to last version of C#. I'm still using Windows 7 on my desktop, and will probably continue using it until that machine is decommissioned (maybe this year, depends on when new-gen graphics hardware hits the market). I think the new Nokia phones are the best looking devices on the market, but the software running on them is not good enough (go read the reviews, or check Microsoft's wasteland of an app store). So I upgraded my old iPhone to a new one.&lt;/p&gt;
 
-&lt;p&gt;It's been over a year since I bought my first OS X hardware (a MacBook Air) and I have to say I like the experience. Using the desktop is especially nice with the multi-touch trackpad (using gestures for virtual desktops is sweet). Scrolling the contents of a window works just like on today's tablets and phones; as it should. So whenever I have to use someone else's laptop, even for 10 seconds, I'm reminded of how awful the &amp;quot;normal&amp;quot; trackpads are. &lt;/p&gt;
 
-&lt;p&gt;I guess Microsoft still has the money to buy themselves some time to get their shit together. But their overall situation is looking rough. I mean, outside game developers end enterprisey things, why would you target Windows?&lt;/p&gt;
 
 
 
-</description>
-<link>
-http://rosado.cc/late-bound/2013/outlook-2013.html
-</link>
-</item>
-<item>
-<title>
-How this page was made
-</title>
-<description>
-&lt;p&gt;The world clearly does have enough blogging software, but I'm writing my own anyway. It's closer to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyl&lt;/a&gt; than to Wordpress as it's static site generator. It has a web interface, uses a database (embedded one, but I'll eventually make storage a plugin feature), and allows adding  ClojureScript driven pages to the site. The last one will allow to add one off experiments the website easily.&lt;/p&gt;
 
-&lt;p&gt;Apart from doing its job (e.g. generating this site), the project is an experiment in writing a Clojure+ClojureScript application. The Clojure side is straightforward. It's the UI that I think I spent the most time on. I don't do UI or JavaScript programming at my current job, so I had to get familiar with &lt;a href=&quot;https://developers.google.com/closure/&quot;&gt;Google Closure&lt;/a&gt; library and other web stuff.&lt;/p&gt;
-
-&lt;p&gt;Currently the basic features are ready but the last 20% of polish is not there. And I really need to get around to making the web interface look pretty; it's ugly and full of placeholder text. That's why I won't be releasing it in the near future. &lt;/p&gt;
-
-&lt;p&gt;I plan to work on it in bursts, to complete some of the fancy features (e.g. I want a something resembling the Facebook timeline). The next thing I'll be working on is a small UI widget library in ClojureScript, taking into consideration some of the reactive programming libraries and languages. Sometime next year, I think.&lt;/p&gt;
-
-
-
-</description>
-<link>
-http://rosado.cc/late-bound/2012/2012-12-24-1356336476689.html
-</link>
-</item>
-</channel>
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-12-10-1418226185659.html</guid>
+  </item>
+  </channel>
 </rss>
