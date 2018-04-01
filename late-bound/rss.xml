@@ -2,100 +2,11 @@
 <rss version='2.0'>
   <channel>
   <generator>cc.rosado.website</generator>
-  <lastBuildDate>Sun, 1 Apr 2018 17:39:57 +0100</lastBuildDate>
+  <lastBuildDate>Sun, 1 Apr 2018 18:50:12 +0100</lastBuildDate>
   <title>Late Bound</title>
   <description>Highly Popular Blog</description>
   <link>http://rosado.cc/late-bound</link>
   <item>
-    <title>How this page was made</title>
-    <pubDate>Mon, 24 Dec 2012 08:07:56 GMT</pubDate>
-    <description>&lt;p&gt;The world clearly does have enough blogging software, but I&#39;m writing my own anyway. It&#39;s closer to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyl&lt;/a&gt; than to Wordpress as it&#39;s static site generator. It has a web interface, uses a database (embedded one, but I&#39;ll eventually make storage a plugin feature), and allows adding  ClojureScript driven pages to the site. The last one will allow to add one off experiments the website easily.&lt;/p&gt;
-
-  &lt;p&gt;Apart from doing its job (e.g. generating this site), the project is an experiment in writing a Clojure+ClojureScript application. The Clojure side is straightforward. It&#39;s the UI that I think I spent the most time on. I don&#39;t do UI or JavaScript programming at my current job, so I had to get familiar with &lt;a href=&quot;https://developers.google.com/closure/&quot;&gt;Google Closure&lt;/a&gt; library and other web stuff.&lt;/p&gt;
-
-  &lt;p&gt;Currently the basic features are ready but the last 20% of polish is not there. And I really need to get around to making the web interface look pretty; it&#39;s ugly and full of placeholder text. That&#39;s why I won&#39;t be releasing it in the near future. &lt;/p&gt;
-
-  &lt;p&gt;I plan to work on it in bursts, to complete some of the fancy features (e.g. I want a something resembling the Facebook timeline). The next thing I&#39;ll be working on is a small UI widget library in ClojureScript, taking into consideration some of the reactive programming libraries and languages. Sometime next year, I think.&lt;/p&gt;
-
-
-  </description>
-    <guid>http://rosado.cc/late-bound/late-bound/2012/2012-12-24-1356336476689.html</guid>
-  </item><item>
-    <title>Outlook: 2013</title>
-    <pubDate>Tue, 22 Jan 2013 22:11:04 GMT</pubDate>
-    <description>&lt;p&gt;I&#39;ll try to describe my software development outlook for 2013. I&#39;d like to read it a year from now and do a &amp;quot;diff.&amp;quot; &lt;/p&gt;
-
-  &lt;p&gt;Microsoft lost me almost completely. Games are the only reason I still have my Windows 7 desktop machine. I have no interest in developing Win RT or Win 8 phone application (or whatever those things are called, Microsoft came up with another brilliant naming scheme). I&#39;ll be doing some C/C++ work but most of it will not involve going deep into Win32 APIs. &lt;/p&gt;
-
-  &lt;p&gt;What about .NET? I don&#39;t use this platform professionally	anymore, so I mostly don&#39;t care. I have a personal project in C# that I really want to finish, and that will probably be all the .NET programming that I&#39;ll do this year. Though, if I seriously decide to  do some iOS/Mac OS programming, I may pick up &lt;a href=&quot;http://xamarin.com/&quot;&gt;Xamarin&lt;/a&gt;&#39;s product. Finally, I upgraded Resharper in december (JetBrains had a &amp;quot;End of the World&amp;quot; sale), so I should make some use of it. Still using VS2010, though. I can&#39;t justify buying new Visual Studio edition.&lt;/p&gt;
-
-  &lt;p&gt;At work I use a mix of Clojure and Java, at home I code mostly with Clojure, so JVM is my main platform at the moment. With the difference that at work I have to use Windows, at home I use either OS X (on my laptop) or Linux (on the desktop, in a VM). For some reason Unix variants are nicer to work with when using Clojure. This is mostly related to all the command line bells and whistles that Windows lack. In theory stuff should run fine everywhere but it turns out even apache commons libs or other core components of the ecosystem fail on Microsoft&#39;s OS, because you&#39;ve dared to put a file on a drive different than &lt;code&gt;C:&lt;/code&gt;.&lt;/p&gt;
-
-  &lt;p&gt;Apart from Clojure, I&#39;ve started using ClojureScript. So far mainly to build a UI for the software that generates this blog and other small experiments. I like it. Definitely more enjoyable than writing JavaScript. &lt;/p&gt;
-
-  &lt;p&gt;What I&#39;d like to look at, but probably won&#39;t have time to: Factor.&lt;/p&gt;
-
-  &lt;h3&gt; Suplement. (Not Programming. Just small rants.)&lt;/h3&gt;
-
-  &lt;p&gt;In the first draft of this post, every paragraph somehow went of  the topic of software development and turned into a rant/praise of particular technology or company. I decided move it down here, because while not directly related to programming, it gives some insight in why I decided to target particular platform this year (or to skip it) .&lt;/p&gt;
-
-  &lt;p&gt;I mentioned games as the main reason I still use Windows. But even there the company is desperately trying to get me buy an Xbox (just look at their pathetic Games For Windows initiative. The client looks and works like it&#39;s been written by an intern, and then there&#39;s &lt;a href=&quot;http://mollyrocket.com/casey/stream_0004.html&quot;&gt;Win 8 marketplace&lt;/a&gt;). I no longer do .NET development for living, so I don&#39;t even know what features were added to last version of C#. I&#39;m still using Windows 7 on my desktop, and will probably continue using it until that machine is decommissioned (maybe this year, depends on when new-gen graphics hardware hits the market). I think the new Nokia phones are the best looking devices on the market, but the software running on them is not good enough (go read the reviews, or check Microsoft&#39;s wasteland of an app store). So I upgraded my old iPhone to a new one.&lt;/p&gt;
-
-  &lt;p&gt;It&#39;s been over a year since I bought my first OS X hardware (a MacBook Air) and I have to say I like the experience. Using the desktop is especially nice with the multi-touch trackpad (using gestures for virtual desktops is sweet). Scrolling the contents of a window works just like on today&#39;s tablets and phones; as it should. So whenever I have to use someone else&#39;s laptop, even for 10 seconds, I&#39;m reminded of how awful the &amp;quot;normal&amp;quot; trackpads are. &lt;/p&gt;
-
-  &lt;p&gt;I guess Microsoft still has the money to buy themselves some time to get their shit together. But their overall situation is looking rough. I mean, outside game developers end enterprisey things, why would you target Windows?&lt;/p&gt;
-
-
-  </description>
-    <guid>http://rosado.cc/late-bound/late-bound/2013/outlook-2013.html</guid>
-  </item><item>
-    <title>Trying Out LightTable</title>
-    <pubDate>Mon, 5 May 2014 10:42:44 GMT</pubDate>
-    <description>&lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. Pairing at someone else&#39;s computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it&#39;s time to fix that and spend some mandatory time with LT.&lt;/p&gt;
-
-  &lt;p&gt;One of the first things I recommend everyone to do is to add &lt;/p&gt;
-
-  &lt;pre&gt;&lt;code&gt;:editor.keys.normal {&amp;quot;tab&amp;quot; [:smart-indent-selection]}
-  &lt;/code&gt;&lt;/pre&gt;
-
-  &lt;p&gt;to your &lt;code&gt;user.keymap&lt;/code&gt;. I don&#39;t think it&#39;s productive to be &amp;quot;creative&amp;quot; with indentation. Personally, I also add this:&lt;/p&gt;
-
-  &lt;pre&gt;&lt;code&gt;:editor {&amp;quot;alt-m&amp;quot; [:editor.line-start-smart]}
-  :editor.keys.hinting.active {&amp;quot;tab&amp;quot; [:auto-complete]}
-  &lt;/code&gt;&lt;/pre&gt;
-
-  &lt;p&gt;First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.&lt;/p&gt;
-
-  &lt;p&gt;For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn&#39;t in the mood. I&#39;ll get to it eventually.&lt;/p&gt;
-
-  &lt;p&gt;One of the main selling points of LT was the Instarepl. I&#39;ve read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn&#39;t. I spent around half of last week coding in LT&#39;s instarepl and really liked the experience. I&#39;ll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the &amp;quot;Live&amp;quot; button to turn it off, but I can&#39;t really hold it against the software. &amp;quot;Too much noise&amp;quot; is a very subjective thing to say, so I don&#39;t think there	&#39;s a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.&lt;/p&gt;
-
-  </description>
-    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-05-05-1399282964991.html</guid>
-  </item><item>
-    <title>Most Unit Testing = Waste</title>
-    <pubDate>Fri, 15 Aug 2014 14:16:01 GMT</pubDate>
-    <description>&lt;p&gt;I had a time to go through some items on my ever-growing reading list. One of those items was an a convincing takedown of the unit testing dogma: &lt;a href=&quot;http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&quot;&gt;Why Most Unit Testing is Waste&lt;/a&gt;. I hope the juicy quotes below will convince you to read it: &lt;/p&gt;
-
-  &lt;blockquote&gt;
-  &lt;p&gt;Remember, though, that automated crap is still crap. And those of you who have a corporate Lean program might note that the foundations of the Toyota Production System, which were the foundations of Scrum, were very much against the automation of intellectual tasks&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;p&gt;Relation between testing and quality:&lt;/p&gt;
-
-  &lt;blockquote&gt;
-  &lt;p&gt;Testing does not increase quality; programming and design do. Testing just provides the insights that the team lacked to do a correct design and implementation.&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;p&gt;And when you&#39;re not sure whether to leave or remove a test from your codebase:&lt;/p&gt;
-
-  &lt;blockquote&gt;
-  &lt;p&gt;So one question to ask about every test is: If this test fails, what business requirement is compromised?&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  </description>
-    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-08-15-1408108561790.html</guid>
-  </item><item>
     <title>Using This</title>
     <pubDate>Wed, 10 Dec 2014 15:43:05 GMT</pubDate>
     <description>&lt;p&gt;Once every couple of months I check new interviews on &lt;a href=&quot;http://usesthis.com/&quot;&gt;The Setup&lt;/a&gt;. I do it to compare workflow/tools and to occasionally discover a new piece of software to try out. I thought it’d be interesting to do something similar once every year. Some tools will probably be forgotten, but some will probably stay in use for decades to come (looking at you, Emacs). So here’s my “setup.” &lt;/p&gt;
@@ -187,6 +98,95 @@
 
   </description>
     <guid>http://rosado.cc/late-bound/late-bound/2014/2014-12-10-1418226185659.html</guid>
+  </item><item>
+    <title>Most Unit Testing = Waste</title>
+    <pubDate>Fri, 15 Aug 2014 14:16:01 GMT</pubDate>
+    <description>&lt;p&gt;I had a time to go through some items on my ever-growing reading list. One of those items was an a convincing takedown of the unit testing dogma: &lt;a href=&quot;http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&quot;&gt;Why Most Unit Testing is Waste&lt;/a&gt;. I hope the juicy quotes below will convince you to read it: &lt;/p&gt;
+
+  &lt;blockquote&gt;
+  &lt;p&gt;Remember, though, that automated crap is still crap. And those of you who have a corporate Lean program might note that the foundations of the Toyota Production System, which were the foundations of Scrum, were very much against the automation of intellectual tasks&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;Relation between testing and quality:&lt;/p&gt;
+
+  &lt;blockquote&gt;
+  &lt;p&gt;Testing does not increase quality; programming and design do. Testing just provides the insights that the team lacked to do a correct design and implementation.&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;And when you&#39;re not sure whether to leave or remove a test from your codebase:&lt;/p&gt;
+
+  &lt;blockquote&gt;
+  &lt;p&gt;So one question to ask about every test is: If this test fails, what business requirement is compromised?&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-08-15-1408108561790.html</guid>
+  </item><item>
+    <title>Trying Out LightTable</title>
+    <pubDate>Mon, 5 May 2014 10:42:44 GMT</pubDate>
+    <description>&lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. Pairing at someone else&#39;s computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it&#39;s time to fix that and spend some mandatory time with LT.&lt;/p&gt;
+
+  &lt;p&gt;One of the first things I recommend everyone to do is to add &lt;/p&gt;
+
+  &lt;pre&gt;&lt;code&gt;:editor.keys.normal {&amp;quot;tab&amp;quot; [:smart-indent-selection]}
+  &lt;/code&gt;&lt;/pre&gt;
+
+  &lt;p&gt;to your &lt;code&gt;user.keymap&lt;/code&gt;. I don&#39;t think it&#39;s productive to be &amp;quot;creative&amp;quot; with indentation. Personally, I also add this:&lt;/p&gt;
+
+  &lt;pre&gt;&lt;code&gt;:editor {&amp;quot;alt-m&amp;quot; [:editor.line-start-smart]}
+  :editor.keys.hinting.active {&amp;quot;tab&amp;quot; [:auto-complete]}
+  &lt;/code&gt;&lt;/pre&gt;
+
+  &lt;p&gt;First one replicates ALT+m from emacs (go to first char on line); second one still allows you to use TAB for autocompletion after enabling :smart-indent-selection.&lt;/p&gt;
+
+  &lt;p&gt;For Emacs users: there are a couple paredit plugins available. I  tried one or two but I think they require some extra config and I wasn&#39;t in the mood. I&#39;ll get to it eventually.&lt;/p&gt;
+
+  &lt;p&gt;One of the main selling points of LT was the Instarepl. I&#39;ve read comments that the visual noise may actually be more distracting than helpful, so I expected to be mildly disappointed. I wasn&#39;t. I spent around half of last week coding in LT&#39;s instarepl and really liked the experience. I&#39;ll even be brave and say it was better than plain Emacs repl. The immediate feedback saved me some time. There were times where I clicked the &amp;quot;Live&amp;quot; button to turn it off, but I can&#39;t really hold it against the software. &amp;quot;Too much noise&amp;quot; is a very subjective thing to say, so I don&#39;t think there	&#39;s a definitive way to solve it (though I expect someone to finally find a better visual language for interactive development). A simple toggle for instant feedback is fine with me.&lt;/p&gt;
+
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2014/2014-05-05-1399282964991.html</guid>
+  </item><item>
+    <title>Outlook: 2013</title>
+    <pubDate>Tue, 22 Jan 2013 22:11:04 GMT</pubDate>
+    <description>&lt;p&gt;I&#39;ll try to describe my software development outlook for 2013. I&#39;d like to read it a year from now and do a &amp;quot;diff.&amp;quot; &lt;/p&gt;
+
+  &lt;p&gt;Microsoft lost me almost completely. Games are the only reason I still have my Windows 7 desktop machine. I have no interest in developing Win RT or Win 8 phone application (or whatever those things are called, Microsoft came up with another brilliant naming scheme). I&#39;ll be doing some C/C++ work but most of it will not involve going deep into Win32 APIs. &lt;/p&gt;
+
+  &lt;p&gt;What about .NET? I don&#39;t use this platform professionally	anymore, so I mostly don&#39;t care. I have a personal project in C# that I really want to finish, and that will probably be all the .NET programming that I&#39;ll do this year. Though, if I seriously decide to  do some iOS/Mac OS programming, I may pick up &lt;a href=&quot;http://xamarin.com/&quot;&gt;Xamarin&lt;/a&gt;&#39;s product. Finally, I upgraded Resharper in december (JetBrains had a &amp;quot;End of the World&amp;quot; sale), so I should make some use of it. Still using VS2010, though. I can&#39;t justify buying new Visual Studio edition.&lt;/p&gt;
+
+  &lt;p&gt;At work I use a mix of Clojure and Java, at home I code mostly with Clojure, so JVM is my main platform at the moment. With the difference that at work I have to use Windows, at home I use either OS X (on my laptop) or Linux (on the desktop, in a VM). For some reason Unix variants are nicer to work with when using Clojure. This is mostly related to all the command line bells and whistles that Windows lack. In theory stuff should run fine everywhere but it turns out even apache commons libs or other core components of the ecosystem fail on Microsoft&#39;s OS, because you&#39;ve dared to put a file on a drive different than &lt;code&gt;C:&lt;/code&gt;.&lt;/p&gt;
+
+  &lt;p&gt;Apart from Clojure, I&#39;ve started using ClojureScript. So far mainly to build a UI for the software that generates this blog and other small experiments. I like it. Definitely more enjoyable than writing JavaScript. &lt;/p&gt;
+
+  &lt;p&gt;What I&#39;d like to look at, but probably won&#39;t have time to: Factor.&lt;/p&gt;
+
+  &lt;h3&gt; Suplement. (Not Programming. Just small rants.)&lt;/h3&gt;
+
+  &lt;p&gt;In the first draft of this post, every paragraph somehow went of  the topic of software development and turned into a rant/praise of particular technology or company. I decided move it down here, because while not directly related to programming, it gives some insight in why I decided to target particular platform this year (or to skip it) .&lt;/p&gt;
+
+  &lt;p&gt;I mentioned games as the main reason I still use Windows. But even there the company is desperately trying to get me buy an Xbox (just look at their pathetic Games For Windows initiative. The client looks and works like it&#39;s been written by an intern, and then there&#39;s &lt;a href=&quot;http://mollyrocket.com/casey/stream_0004.html&quot;&gt;Win 8 marketplace&lt;/a&gt;). I no longer do .NET development for living, so I don&#39;t even know what features were added to last version of C#. I&#39;m still using Windows 7 on my desktop, and will probably continue using it until that machine is decommissioned (maybe this year, depends on when new-gen graphics hardware hits the market). I think the new Nokia phones are the best looking devices on the market, but the software running on them is not good enough (go read the reviews, or check Microsoft&#39;s wasteland of an app store). So I upgraded my old iPhone to a new one.&lt;/p&gt;
+
+  &lt;p&gt;It&#39;s been over a year since I bought my first OS X hardware (a MacBook Air) and I have to say I like the experience. Using the desktop is especially nice with the multi-touch trackpad (using gestures for virtual desktops is sweet). Scrolling the contents of a window works just like on today&#39;s tablets and phones; as it should. So whenever I have to use someone else&#39;s laptop, even for 10 seconds, I&#39;m reminded of how awful the &amp;quot;normal&amp;quot; trackpads are. &lt;/p&gt;
+
+  &lt;p&gt;I guess Microsoft still has the money to buy themselves some time to get their shit together. But their overall situation is looking rough. I mean, outside game developers end enterprisey things, why would you target Windows?&lt;/p&gt;
+
+
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2013/outlook-2013.html</guid>
+  </item><item>
+    <title>How this page was made</title>
+    <pubDate>Mon, 24 Dec 2012 08:07:56 GMT</pubDate>
+    <description>&lt;p&gt;The world clearly does have enough blogging software, but I&#39;m writing my own anyway. It&#39;s closer to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyl&lt;/a&gt; than to Wordpress as it&#39;s static site generator. It has a web interface, uses a database (embedded one, but I&#39;ll eventually make storage a plugin feature), and allows adding  ClojureScript driven pages to the site. The last one will allow to add one off experiments the website easily.&lt;/p&gt;
+
+  &lt;p&gt;Apart from doing its job (e.g. generating this site), the project is an experiment in writing a Clojure+ClojureScript application. The Clojure side is straightforward. It&#39;s the UI that I think I spent the most time on. I don&#39;t do UI or JavaScript programming at my current job, so I had to get familiar with &lt;a href=&quot;https://developers.google.com/closure/&quot;&gt;Google Closure&lt;/a&gt; library and other web stuff.&lt;/p&gt;
+
+  &lt;p&gt;Currently the basic features are ready but the last 20% of polish is not there. And I really need to get around to making the web interface look pretty; it&#39;s ugly and full of placeholder text. That&#39;s why I won&#39;t be releasing it in the near future. &lt;/p&gt;
+
+  &lt;p&gt;I plan to work on it in bursts, to complete some of the fancy features (e.g. I want a something resembling the Facebook timeline). The next thing I&#39;ll be working on is a small UI widget library in ClojureScript, taking into consideration some of the reactive programming libraries and languages. Sometime next year, I think.&lt;/p&gt;
+
+
+  </description>
+    <guid>http://rosado.cc/late-bound/late-bound/2012/2012-12-24-1356336476689.html</guid>
   </item>
   </channel>
 </rss>
