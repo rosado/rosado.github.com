@@ -2,7 +2,7 @@
 <rss version='2.0'>
   <channel>
   <generator>cc.rosado.website</generator>
-  <lastBuildDate>Sun, 1 Apr 2018 18:50:12 +0100</lastBuildDate>
+  <lastBuildDate>Sun, 21 Jul 2019 14:50:39 +0100</lastBuildDate>
   <title>Late Bound</title>
   <description>Highly Popular Blog</description>
   <link>http://rosado.cc/late-bound</link>
@@ -98,7 +98,7 @@
 
   </description>
     <guid>http://rosado.cc/late-bound/late-bound/2014/2014-12-10-1418226185659.html</guid>
-  </item><item>
+  </item> <item>
     <title>Most Unit Testing = Waste</title>
     <pubDate>Fri, 15 Aug 2014 14:16:01 GMT</pubDate>
     <description>&lt;p&gt;I had a time to go through some items on my ever-growing reading list. One of those items was an a convincing takedown of the unit testing dogma: &lt;a href=&quot;http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&quot;&gt;Why Most Unit Testing is Waste&lt;/a&gt;. I hope the juicy quotes below will convince you to read it: &lt;/p&gt;
@@ -121,7 +121,7 @@
 
   </description>
     <guid>http://rosado.cc/late-bound/late-bound/2014/2014-08-15-1408108561790.html</guid>
-  </item><item>
+  </item> <item>
     <title>Trying Out LightTable</title>
     <pubDate>Mon, 5 May 2014 10:42:44 GMT</pubDate>
     <description>&lt;p&gt;Most of my co-workers use &lt;a href=&quot;http://www.lighttable.com/&quot;&gt;LightTable&lt;/a&gt; to write Clojure code. My editor of choice is Emacs. Pairing at someone else&#39;s computer often ended with me fumbling at the keyboard. Since I only had a brief look at LT in the past, I knew only one keyboard shortcut (CTRL+SPACE). I decided it&#39;s time to fix that and spend some mandatory time with LT.&lt;/p&gt;
@@ -145,7 +145,7 @@
 
   </description>
     <guid>http://rosado.cc/late-bound/late-bound/2014/2014-05-05-1399282964991.html</guid>
-  </item><item>
+  </item> <item>
     <title>Outlook: 2013</title>
     <pubDate>Tue, 22 Jan 2013 22:11:04 GMT</pubDate>
     <description>&lt;p&gt;I&#39;ll try to describe my software development outlook for 2013. I&#39;d like to read it a year from now and do a &amp;quot;diff.&amp;quot; &lt;/p&gt;
@@ -173,7 +173,7 @@
 
   </description>
     <guid>http://rosado.cc/late-bound/late-bound/2013/outlook-2013.html</guid>
-  </item><item>
+  </item> <item>
     <title>How this page was made</title>
     <pubDate>Mon, 24 Dec 2012 08:07:56 GMT</pubDate>
     <description>&lt;p&gt;The world clearly does have enough blogging software, but I&#39;m writing my own anyway. It&#39;s closer to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyl&lt;/a&gt; than to Wordpress as it&#39;s static site generator. It has a web interface, uses a database (embedded one, but I&#39;ll eventually make storage a plugin feature), and allows adding  ClojureScript driven pages to the site. The last one will allow to add one off experiments the website easily.&lt;/p&gt;
@@ -187,6 +187,6 @@
 
   </description>
     <guid>http://rosado.cc/late-bound/late-bound/2012/2012-12-24-1356336476689.html</guid>
-  </item>
+  </item> 
   </channel>
 </rss>
