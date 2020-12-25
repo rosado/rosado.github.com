@@ -2,7 +2,7 @@
 <rss version='2.0'>
   <channel>
   <generator>cc.rosado.website</generator>
-  <lastBuildDate>Sun, 23 Feb 2020 15:37:24 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 25 Dec 2020 18:19:56 GMT</lastBuildDate>
   <title>Late Bound</title>
   <description>Highly Popular Blog</description>
   <link>http://rosado.cc/late-bound</link>
@@ -21,12 +21,12 @@
   &lt;h2&gt;Software&lt;/h2&gt;
   &lt;p&gt;Writing code happens mostly in Emacs, Xcode and sometimes IntelliJ, GoLand or Sublime Text. I no longer use Cursive due to IDE becoming sluggish after a few hours of use (I haven’t used Cursive in last ~2 years, so it may be fixed). But I’ve started using Git Tower regularly. I’m thinking of switching to Sublime Merge because of Tower’s subscription pricing model. And &lt;code&gt;ack&lt;/code&gt; has been replaced by &lt;code&gt;ag&lt;/code&gt;. &lt;code&gt;zsh&lt;/code&gt; is the default on almost all machines I own (I don’t bother changing whatever the default is on AWS instances and Raspberry Pi).&lt;/p&gt;
   &lt;p&gt;I’ve pretty much stopped using Dropbox and Evernote. Both of those services prioritize features I don’t care about and want to charge way more than I’m willing to pay. Dropbox has been replaced by a combination of Resilio Sync and iCloud. Evernote’s duties are now fulfilled by Devon Think. &lt;a href=&quot;http://www.youneedabudget.com/&quot;&gt;You Need A Budget&lt;/a&gt; became a subscription web app with not so great performance. But to be honest, the desktop app was sluggish, too. I tried to find a replacement, but there was nothing quite like it.&lt;/p&gt;
-  &lt;p&gt;I still like to use &lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;ia Writer&lt;/a&gt; for writing and &lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt; for task management. When I need to make a diagram I use [Scapple][scapple]. Very simple (and limited) but so far I didn’t need anything more fancy.&lt;/p&gt;
+  &lt;p&gt;I still like to use &lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;ia Writer&lt;/a&gt; for writing and &lt;a href=&quot;https://www.omnigroup.com/omnifocus&quot;&gt;Omni Focus&lt;/a&gt; for task management. When I need to make a diagram I use &lt;a href=&quot;https://www.literatureandlatte.com/scapple/overview&quot;&gt;Scapple&lt;/a&gt;. Very simple (and limited) but so far I didn’t need anything more fancy.&lt;/p&gt;
   &lt;p&gt;For backups I’m using a combination of Time Machine and Arq Backup. Windows Box still uses MAX Backup.&lt;/p&gt;
   &lt;p&gt;I’m into photography but I’m not a fan of subscription pricing and Adobe in general, so I’ve replaced Light Room with Luminar 3 earlier this year. Unfortunately I’ve after becoming more and more frustrated with Luminar’s performance (opening any photo  takes multiple seconds until it is displayed without weird artefacts), so I bit the bullet and switched to &lt;a href=&quot;captureone&quot;&gt;Capture One&lt;/a&gt;.&lt;/p&gt;
   &lt;p&gt;I’ve definitely found an alternative for Photoshop, though. Affinity Photo is great and does pretty much all I need. It’s possible to follow a lot of Photoshop tutorials with Affinity Photo just fine (usually with some googling to find out how to do equivalent operation in Affinity).&lt;/p&gt;
   &lt;p&gt;I still use &lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt; for modeling and &lt;a href=&quot;http://www.allegorithmic.com/products/substance-painter&quot;&gt;Substance Painter&lt;/a&gt; + &lt;a href=&quot;http://www.allegorithmic.com/products/substance-designer&quot;&gt;Substance Designer&lt;/a&gt; for texturing. Photoshop has been replaced by Affinity Photo.&lt;/p&gt;
-  &lt;p&gt;One thing that made its re-appearance in my life last year the &lt;a href=&quot;http://TODO/to-my-article&quot;&gt;Amiga&lt;/a&gt;. Partly through [Amiga Forever][amiga-forever] where it’s possible to sort of see how Amiga OS4 looks like. I say “sort of” because the performance is bad and things often stop working (I don’t know if it’s the fault of the emulation or the OS itself).&lt;/p&gt;
+  &lt;p&gt;One thing that made its re-appearance in my life last year the &lt;a href=&quot;http://TODO/to-my-article&quot;&gt;Amiga&lt;/a&gt;. Partly through &lt;a href=&quot;https://www.amigaforever.com/&quot;&gt;Amiga Forever&lt;/a&gt; where it’s possible to sort of see how Amiga OS4 looks like. I say “sort of” because the performance is bad and things often stop working (I don’t know if it’s the fault of the emulation or the OS itself).&lt;/p&gt;
   &lt;h2&gt;Windows &amp;amp; OS X&lt;/h2&gt;
   &lt;ul&gt;
   &lt;li&gt;Emacs 26.X&lt;/li&gt;
@@ -39,7 +39,7 @@
   &lt;ul&gt;
   &lt;li&gt;Total Commander&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/conemu-maximus5/&quot;&gt;ConEmu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[Pyxel][pyxel]&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pyxeledit.com/&quot;&gt;Pyxel&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.blender.org&quot;&gt;Blender&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Game Maker Studio&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.irfanview.com/&quot;&gt;Irfan View&lt;/a&gt;&lt;/li&gt;
